@@ -14,8 +14,8 @@ I am Munif Ishad Mujib, a data scientist currently working on my PhD at Drexel U
 ## Research Overview
 
 + I am primarily interested in data science problems relating to natural language.
-+ I prefer to work on application-oriented projects.
-+ I work on developing systems and experiments in a range of domains from social networks to healthcare informatics.
++ I work on application-oriented projects.
++ I develop systems and experiments in a range of domains from social networks to healthcare informatics.
 
 ## Contact
 
@@ -66,6 +66,6 @@ Both in industry and academia, I have developed and continue to develop extensiv
 
 ## Tools
 
-I primarily use Python. For development, I use Jupyter Notebooks. I use LaTeX and Markdown for documentation. I prefer working in Unix-like environments such as MacOS and GNU/Linux, but I have also been a long-time Windows user.
+I primarily use Python. For development, I use Jupyter Notebooks. I use LaTeX and Markdown for documentation. I prefer working in Unix-like environments such as MacOS and GNU/Linux, but I have also been a Windows user.
 
 I use `scikit-learn` for out-of-the-box machine learning tools and `matplotlib` and `seaborn` for results visualization.
