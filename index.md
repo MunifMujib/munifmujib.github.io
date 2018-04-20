@@ -58,7 +58,7 @@ Python, bash/shell, C, C++, Matlab, Embedded C, Arduino, x86 Assembly, Java, Jav
 
 # Computing
 
-## Code and Workflow
+## Workflow
 
 As a data scientist, most of my projects require significant data preprocessing and developing data handling tools. The next phase of a project is exploratory data analysis or EDA followed by model construction and experimental design. Finally, the project usually requires the development of an evaluation scheme and/or metrics.
 
