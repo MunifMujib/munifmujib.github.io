@@ -54,7 +54,7 @@ Bangla, English, some French.
 
 ## Machine
 
-Python, bash/shell, C, C++, Matlab, Embedded C, Arduino, x86 Assembly, Java, JavaScript, PHP; markup languages: LaTeX, Markdown, HTML, CSS.
+Python, bash/shell, C, C++, MATLAB, Embedded C, Arduino, x86 Assembly, Java, JavaScript, PHP; markup languages: LaTeX, Markdown, HTML, CSS.
 
 # Computing
 
@@ -66,6 +66,6 @@ Both in industry and academia, I have developed and continue to develop extensiv
 
 ## Tools
 
-I primarily use Python. For development, I use Jupyter Notebooks. I use LaTeX and Markdown for documentation. I prefer working in Unix-like environments such as MacOS and GNU/Linux, but I have also been a Windows user.
+I primarily use Python. For development, I use Jupyter Notebooks. I use LaTeX and Markdown for documentation. I prefer working in Unix-like environments such as macOS and GNU/Linux, but I have also been a Windows user.
 
 I use `scikit-learn` for out-of-the-box machine learning tools and `matplotlib` and `seaborn` for results visualization.
