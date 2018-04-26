@@ -9,7 +9,7 @@ classoption: "12pt"
 
 # About
 
-I am Munif Ishad Mujib, a data scientist currently working on my PhD at Drexel University in Philadelphia, PA. My background is in Electrical Engineering. I moved from engineering to data science through working on signal processing and pattern recognition problems. I worked for a San Francisco Bay Area-based machine learning startup for a year after getting my bachelor's degree and subsequently committed to doctoral study in related areas.
+I am a data scientist currently working on my PhD at Drexel University in Philadelphia, PA. My background is in Electrical Engineering. I moved from engineering to data science through working on signal processing and pattern recognition problems. I worked for a San Francisco Bay Area-based machine learning startup for a year after getting my bachelor's degree and subsequently committed to doctoral study in related areas.
 
 ## Research Overview
 
