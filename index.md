@@ -48,22 +48,22 @@ I am a data scientist currently working on my PhD at Drexel University in Philad
 + Developing a bot detection system on Facebook. September 2017--
 : Preliminary exploration of bot activity and potential detection mechanisms on Facebook posts from news outlets utilizing a dataset of news stories annotated for factuality. -->
 
-- Acquiring data and developing data access tools for
++ Acquiring data and developing data access tools for
 geolocation-enabled tweets as part of a larger project on analyzing
 emergence of political protest activity on Twitter.
-- Developing a network model for multi-word expression segmentation, a
++ Developing a network model for multi-word expression segmentation, a
 core NLP task. In conjunction, developing improved tokenization algorithms
 for the partitioner Python package.
-- Collaboration with the University of California, San Francisco School
++ Collaboration with the University of California, San Francisco School
 of Medicine on an exploratory project on information extraction from
 clinical trial records and patient-facing simplification of clinical trial
 descriptions.
-- Development of a frequency-conserving context model for automatic
++ Development of a frequency-conserving context model for automatic
 expansion of the consumer health vocabulary, a relational dataset of medical
 terms and their colloquial uses, by analyzing user-generated text on online
 medical forums. Published at the IEEE International Conference on Healthcare
 Informatics.
-- Developing tools and algorithms for bot detection on Facebook using
++ Developing tools and algorithms for bot detection on Facebook using
 linguistic and numerical features. Dataset development for this project was
 documented at the International Conference on Web and Social Media.
 
