@@ -25,9 +25,11 @@ I am a data scientist currently working on my PhD at Drexel University in Philad
 
 ## Experience
 
-+ Research Assistant at College of Computing and Informatics, Drexel University. September 2017--
++ Research Assistant at College of Computing and Informatics, Drexel University. September 2017 -- Present
 : I am part of the Computational Open Data Exploration and Discovery (CODED) lab at Drexel CCI. My academic advisor is Dr. Jake Ryland Williams. We work on a wide range of data science and NLP problems.
-+ Natural Language Processing Researcher at Semion Inc. July 2016--July 2017.
++ Course Content Developer at College of Computing and Informatics, Drexel University. June 2018 -- August 2018
+: I helped develop course lectures, exercises, and assignments for a graduate level Python-based data science course offered through Drexel CCI's MS in Data Science program, DSCI 511: Data Acquisition and Pre-processing.
++ Natural Language Processing Researcher at Semion Inc. July 2016 -- July 2017.
 : As an NLP researcher at Semion, I developed state-of-the-art machine learning systems for application in legal, financial, and medical domains. The primary research focus was the application of scalable Deep Learning technologies to real-world problems.
 
 ## Education
@@ -37,14 +39,33 @@ I am a data scientist currently working on my PhD at Drexel University in Philad
 
 # Projects
 
-+ Exploring NLP applications towards clinical trial description simplification. March 2018--
+<!-- + Exploring NLP applications towards clinical trial description simplification. March 2018--
 : Collaboration between my research group at Drexel University and the University of California, San Francisco School of Medicine. An ongoing pilot project exploring the potential of NLP technologies in helping make descriptions of clinical trials more understandable to the average potential participant.
 
 + Expanding a Consumer Health Vocabulary (CHV) using a probabilistic context model. September 2017--
 : Development of a machine learning algorithm that can generate entry suggestions for a CHV by analyzing user-generated text on online medical forums.
 
 + Developing a bot detection system on Facebook. September 2017--
-: Preliminary exploration of bot activity and potential detection mechanisms on Facebook posts from news outlets utilizing a dataset of news stories annotated for factuality.
+: Preliminary exploration of bot activity and potential detection mechanisms on Facebook posts from news outlets utilizing a dataset of news stories annotated for factuality. -->
+
+- Acquiring data and developing data access tools for
+geolocation-enabled tweets as part of a larger project on analyzing
+emergence of political protest activity on Twitter.
+- Developing a network model for multi-word expression segmentation, a
+core NLP task. In conjunction, developing improved tokenization algorithms
+for the partitioner Python package.
+- Collaboration with the University of California, San Francisco School
+of Medicine on an exploratory project on information extraction from
+clinical trial records and patient-facing simplification of clinical trial
+descriptions.
+- Development of a frequency-conserving context model for automatic
+expansion of the consumer health vocabulary, a relational dataset of medical
+terms and their colloquial uses, by analyzing user-generated text on online
+medical forums. Published at the IEEE International Conference on Healthcare
+Informatics.
+- Developing tools and algorithms for bot detection on Facebook using
+linguistic and numerical features. Dataset development for this project was
+documented at the International Conference on Web and Social Media.
 
 # Languages
 
@@ -54,7 +75,7 @@ Bangla, English, some French.
 
 ## Machine
 
-Python, bash/shell, C, C++, MATLAB, Embedded C, Arduino, x86 Assembly, Java, JavaScript, PHP; markup languages: LaTeX, Markdown, HTML, CSS.
+Python, bash/shell, C, C++, R, JavaScript, MATLAB, Embedded C, Arduino, x86 Assembly, Java, C#; markup languages: LaTeX, Markdown, HTML, CSS.
 
 # Computing
 
