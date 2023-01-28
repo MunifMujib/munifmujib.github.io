@@ -8,133 +8,228 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
+  
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Munif Ishad Mujib</h1>
 </header>
 <h1 id="about">About</h1>
-<p>Munif is a data scientist and engineer with 5 years of experience building data products and machine learning systems working across the full gamut of the data science pipeline, from data engineering tasks such as acquisition, storage, and ETL workflows to exploratory analysis, interactive visualization, network analysis, statistical modeling, natural language processing (NLP), and machine learning. He enjoys collaborating with cross-functional teams in software engineering, algorithmic optimization, UI/UX design, human-computer interaction, and communication to develop scalable and modular data-intensive applications.</p>
-<!-- ## Research Overview
-
-+ I am primarily interested in data science problems relating to sociological and political research questions.
-+ I work on application-oriented projects.
-+ I develop systems and experiments in a range of domains from social networks to healthcare informatics. -->
+<p>Munif is a software engineer and data scientist with 6 years of
+experience in building solutions for data analytics projects. His exper-
+tise is in developing large-scale data engineering systems with cloud
+orchestration, interactive visualizations in web dashboards, monitoring
+and alerting systems for complex computer hardware, highly automated
+data pipelines for processing hardware testing datasets, analytics
+workflows for machine-generated logs, and investigation of noisy time-
+series datasets from hardware telemetry. His educational training
+includes a PhD in data science where he studied building complex data
+products which combine effective ETL techniques with modern machine
+learning and network science applications. He also has a background in
+Electrical Engineering, where his areas of focus were digital sensors
+and signal processing. He posesses state-of-the-art familiarity with
+data analytics and engineering tools such as Python (Pandas, NumPy,
+SciPy, Scikit-learn, Plotly, Matplotlib, Seaborn), shell scripting, SQL,
+Airflow, and Elasticsearch, as well as cloud deployment tools (AWS and
+GCP).</p>
 <h2 id="contact">Contact</h2>
 <ul>
-<li>Email: <a href="mailto:mim52@drexel.edu">mim52@drexel.edu</a> <!-- + Website: [munifmujib.github.io](https://munifmujib.github.io) --> <!-- + Github: [github.com/MunifMujib](https://github.com/MunifMujib) --></li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/munifmujib">linkedin.com/in/munifmujib</a></li>
+<li>Email: <a
+href="mailto:munifishadmujib@gmail.com">munifishadmujib@gmail.com</a></li>
+<li>LinkedIn: <a
+href="https://www.linkedin.com/in/munifmujib">linkedin.com/in/munifmujib</a></li>
+</ul>
+<h2 id="skills">Skills</h2>
+<ul>
+<li><strong>Data Analysis and Scripting:</strong> Python (Pandas, NumPy,
+Airflow, PySpark, NetworkX, SciPy, Scikit-learn, TensorFlow, PyTorch),
+Unix Shell (bash/zsh).</li>
+<li><strong>Automation and DevOps:</strong> Airflow, tmux, cron, Git,
+AWS, GCP, Jira.</li>
+<li><strong>ETL:</strong> PostgreSQL, TimeScaleDB, InfluxDB, MongoDB,
+Elasticsearch, Logstash.</li>
+<li><strong>Visualization:</strong> Plotly/Dash, Matplotlib/Seaborn,
+Vega.js, d3.js.</li>
+<li><strong>Dashboarding, Reporting, and Documentation:</strong>
+Jupyter, Grafana, Redash, Kibana, rST, Markdown, .</li>
+<li><strong>Other:</strong> JavaScript, MATLAB, C, C++, C#</li>
 </ul>
 <h1 id="experience">Experience</h1>
+<h3 id="cerebras-systems"><strong>Cerebras Systems</strong></h3>
+<p>Sunnyvale, CA<br />
+Senior Data Scientist (Data Analytics) <strong>Apr 2022 –
+Present</strong><br />
+</p>
 <ul>
-<li><p><strong>CODED Lab, College of Computing and Informatics, Drexel University</strong>, Philadelphia, PA<br />
-Data Scientist, Doctoral Researcher <strong>Sep 2017 – Present</strong><br />
-</p></li>
-<li><p>Modeling the networked production of news:</p>
-<ul>
-<li><p>Developed a real-time data acquisition and ETL pipeline for news articles and potentially newsworthy user-generated content. NewsTweet, the dataset constructed from this pipeline, collects over 2 million news articles and 700 million tweets.</p></li>
-<li><p>Developing a network construction and segmentation algorithm to identify distinct news stories and detect hierarchical topical relationships between stories.</p></li>
-<li><p>Developing a knowledge graph data model and API for temporally evolving news stories as well as their relationships to other stories and social content.</p></li>
-<li><p>Developing a real-time machine learning application that ingests data from Google News and Twitter, then utilizes the data model and API to expand story chains and recommends potentially pertinent social content.</p></li>
-</ul></li>
-<li><p>Developed real-time, continuous activity tracking tools to monitor malicious follower behavior (such as coordinated campaigns and botnets) on high-profile Twitter accounts. These tools track the follow-unfollow behaviors of more than 3 million Twitter accounts every hour.</p></li>
-<li><p>As part of CLARITY, an NSF-funded project, developed BotBegone, an application that helps Facebook page moderators monitor malicious and inauthentic activity on their pages. Developed the feature engineering and supervised machine learning system for bot detection for this project using a veracity-annotated news discussion dataset from Facebook consisting of more than 1.6 million user comments.</p></li>
-<li><p>Developed an acquisition and ETL pipeline for geotagged Twitter data (resulting in a dataset with more than 3 billion tweets) for hierarchical geographic querying.</p></li>
-<li><p>Designed a prototype conversational agent incorporating novel NLP pipelines for health management support in collaboration with the Michigan State University College of Nursing. Evaluated neural language model-based chatbot performance in the context of therapist-patient dialogue, collaborating with the University of Pennsylvania School of Medicine.</p></li>
-<li><p>Prototyped an NLP application for patient-facing information extraction and simplification of clinical trial descriptions in collaboration with the University of California, San Francisco School of Medicine.</p></li>
-<li><p>Developed a low-cost NLP algorithm for automatic expansion of the consumer health vocabulary, a relational dataset of medical terms and their colloquial uses, by analyzing user-generated text from online medical forums.</p></li>
-<li><p><strong>Semion Inc.</strong>, Dhaka, Bangladesh / Berkeley, CA<br />
-Machine Learning Engineer, NLP <strong>Jul 2016 – Jul 2017</strong><br />
-Built business applications with state-of-the-art deep learning technologies. Developed a sequential convolutional neural network-based system for legal document discovery. Prototyped named entity recognition for financial documents utilizing long short-term memory networks and conditional random fields. Developed NLP and speech recognition components of voice-activated electronic health records software for medical professionals.</p></li>
+<li>Architected and developed ETL data pipelines and automations
+centered on real-time telemetry and testing data collection,
+preprocessing, and analysis using <strong>Python, Pandas, Airflow,
+PostgreSQL, TimeScaleDB, InfluxDB, Git,</strong> and
+<strong>AWS</strong> infrastructure-as-code mechanisms.</li>
+<li>Developed design documents, implemented agile project management on
+<strong>Jira</strong>, and documented pipelines on internal Sphinx
+webserver with <strong>rST</strong>.</li>
+<li>Executed exploratory and investigative data analysis on noisy
+telemetry and hardware testing datasets to identify anomalous datapoints
+and variation patterns with <strong>Pandas, SQL, NumPy,</strong> and
+<strong>SciPy</strong>. Communicated findings visually with
+<strong>Jupyter</strong> and <strong>Plotly</strong> to stakeholders and
+provided recommendations for adjustment of testing and operation
+parameters.</li>
+<li>Improved design of deployed data pipelines, improving processing and
+reporting times by up to 97-99%. Monitored the execution of pipelines
+with <strong>Airflow, AWS CloudWatch,</strong> and <strong>Slack
+alerts</strong> as designated owner and performed effective debug
+analysis.</li>
+<li>Deployed statistical outlier detection methods with
+<strong>Pandas</strong> and <strong>SQL</strong> for complex hardware
+testing datasets and provided data consumers with interactive interfaces
+for adjustability of detection thresholds.</li>
+<li>Deployed the open-source <strong>Elasticsearch-Kibana-Logstash
+(ELK)</strong> stack to provide tools and <strong>Kibana QL</strong>
+workflows for collecting, organizing, analyzing, and reporting on
+machine-generated logs from Linux systems and unstructured text data
+from tests.</li>
+<li>Developed scalable user-friendly dashboards, interactive
+visualizations, and reporting utilities for hardware testing and
+monitoring datasets using <strong>Plotly Dash</strong> web apps on
+<strong>AWS</strong> servers.</li>
+<li>Negotiated stakeholder relationships across the organization to
+understand data producer and consumer requirements and inculcate a
+data-driven culture across engineering teams. Led training and
+communication efforts to improve engineering workflows. Mentored junior
+professionals through close collaboration.</li>
 </ul>
-<!-- ## Experience
-
-+ Research Assistant at College of Computing and Informatics, Drexel University. September 2017 -- August 2021 (Expected)
-: I am part of the Computational Open Data Exploration and Discovery (CODED) lab at Drexel CCI. My academic advisor is Dr. Jake Ryland Williams. We work on a wide range of data science and natural language processing (NLP) problems.
-+ Instructor of Record at College of Computing and Informatics, Drexel University. June 2019 -- September 2019
-: I taught DSCI 521: Data Analysis and Interpretation, an introductory graduate-level course in exploratory analysis and machine learning using Python with an applied focus on tools and techniques.
-+ Course Content Developer at College of Computing and Informatics, Drexel University. June 2018 -- August 2018
-: I helped develop course lectures, exercises, and assignments for a graduate level Python-based data science course offered through Drexel CCI's MS in Data Science program, DSCI 511: Data Acquisition and Pre-processing.
-+ Natural Language Processing Researcher at Semion Inc. July 2016 -- July 2017.
-: As an NLP researcher at Semion, I developed state-of-the-art machine learning systems for application in legal, financial, and medical domains. The primary research focus was the application of scalable deep learning technologies to real-world problems. -->
+<h3 id="college-of-computing-and-informatics-drexel-university">College
+of Computing and Informatics, Drexel University</h3>
+<p>Philadelphia, PA<br />
+Data Scientist, Doctoral Researcher (CODED Lab ) <strong>Sep 2017 – Mar
+2022</strong><br />
+</p>
+<ul>
+<li>Built a prototype news aggregator that combined graph partitioning
+algorithms, transformer neural language models (MiniLM/DistilBERT), and
+clustering techniques (HDBSCAN) to group, summarize, and connect news
+stories and social conversations with <strong>PyTorch, PySpark,</strong>
+and <strong>scikit-learn</strong>. Built a terabyte-scale real-time ETL
+system on top of public APIs and constructed a graph dataset of 3M news
+articles and 1.5B social posts with <strong>MongoDB</strong> and
+<strong>NetworkX</strong>. Published as PhD dissertation and multiple
+papers, presented at the HICSS conference.</li>
+<li>Developed continuous activity tracking analytics tools to monitor
+malicious coordinated campaigns and botnets on 3M social accounts with
+<strong>scikit-learn, SciPy,</strong> and <strong>Plotly.</strong>
+Presented at IC2S2.</li>
+<li>Developed supervised machine learning classifier with
+<strong>scikit-learn</strong> and <strong>NumPy</strong> for bot
+detection on social platforms using a veracity-annotated news discussion
+dataset consisting of 1.6M user-generated text records. Published and
+presented at ICWSM.</li>
+<li>Designed a prototype conversational agent incorporating a neural NLP
+pipeline (GPT-2 based) for mental health support using
+<strong>PyTorch</strong> and <strong>DeepSpeech</strong> as well as a
+<strong>Raspberry Pi</strong> client. Published in JMIR Human Factors
+and presented at EAI PervasiveHealth.</li>
+<li>Developed a low-cost frequency-based NLP algorithm for automatic
+expansion of a relational dataset of medical terms using user-generated
+text corpora with <strong>NumPy</strong> and <strong>SpaCy</strong>.
+Published at ICHI.</li>
+</ul>
+<h3 id="semion-inc.">Semion Inc.</h3>
+<p>Dhaka, Bangladesh / Berkeley, CA<br />
+Machine Learning Engineer, NLP <strong>Jul 2016 – Jul
+2017</strong><br />
+</p>
+<p>Built business applications with state-of-the-art deep learning
+technologies. Developed a sequential CNN-based system for legal document
+discovery. Prototyped named entity recognition for financial documents
+utilizing LSTM and CRF models. Developed NLP and speech recognition
+components of voice-activated electronic health records software for
+medical professionals.</p>
 <h1 id="education">Education</h1>
 <ul>
 <li><p><strong>Drexel University</strong>, Philadelphia, PA<br />
-Ph.D., Data Science <strong>Sep 2017 – Sep 2021 (Expected)</strong><br />
-Combining software engineering, statistical analysis, and computational modeling with sociotechnical systems theory from complex systems, computational social science, and communication literature to study the design and application of social data products leveraging large datasets, machine learning, and network analysis. Focus on data science for social good: analysis of malicious activity in social networks such as bots, misinformation, and coordinated campaigns as well as development of software tools for user empowerment.</p></li>
-<li><p><strong>Bangladesh University of Engineering and Technology</strong>, Dhaka, Bangladesh<br />
-B.Sc., Electrical and Electronic Engineering <strong>Feb 2011 – Mar 2016</strong><br />
-Developed a support vector machine (SVM) based machine learning system for forensic location classification from electrical network frequency data that won the IEEE Signal Processing Cup at ICASSP 2016. Developed an automatic household electrical load monitoring system utilizing power signature classification techniques with real-time user notifications and analytics.</p></li>
+Ph.D., Data Science <strong>2022</strong><br />
+Combining software engineering, statistical analysis, and computational
+modeling with sociotechnical systems theory from complex systems,
+computational social science, network science, and communication
+literature to study the design and application of social data products
+leveraging large datasets, machine learning, and network analysis. Focus
+on data science for social good: analysis of malicious activity in
+social networks such as bots, misinformation, and coordinated campaigns
+as well as development of software tools for user empowerment.</p></li>
+<li><p><strong>Bangladesh University of Engineering and
+Technology</strong>, Dhaka, Bangladesh<br />
+B.Sc., Electrical and Electronic Engineering <strong>2016</strong><br />
+Developed a support vector machine (SVM) based machine learning system
+for forensic location classification from electrical network frequency
+data that won the IEEE Signal Processing Cup at ICASSP 2016. Developed
+an automatic household electrical load monitoring system utilizing power
+signature classification techniques with real-time user notifications
+and analytics.</p></li>
 </ul>
-<!-- + Ph.D., Information Science. Drexel University. 2017--2021 (Expected)
-+ B.Sc., Electrical and Electronic Engineering. Bangladesh University of Engineering and Technology. 2011--2016 -->
-<!-- # Projects -->
-<!-- + Exploring NLP applications towards clinical trial description simplification. March 2018--
-: Collaboration between my research group at Drexel University and the University of California, San Francisco School of Medicine. An ongoing pilot project exploring the potential of NLP technologies in helping make descriptions of clinical trials more understandable to the average potential participant.
-
-+ Expanding a Consumer Health Vocabulary (CHV) using a probabilistic context model. September 2017--
-: Development of a machine learning algorithm that can generate entry suggestions for a CHV by analyzing user-generated text on online medical forums.
-
-+ Developing a bot detection system on Facebook. September 2017--
-: Preliminary exploration of bot activity and potential detection mechanisms on Facebook posts from news outlets utilizing a dataset of news stories annotated for factuality. -->
-<!-- + Developing tracking tools to monitor malicious follower-network behavior on Twitter.
-+ Developed Python library providing useful abstractions for collection of geotagged Twitter data and algorithmic geospatial hierarchy construction as part of larger study of political activity in online social networks. Curated and shared a dataset of 2 billion tweets with the research community. Publication of this project is currently in review.
-+ Collaborated with the University of California, San Francisco School of Medicine on an exploratory project on information extraction from clinical trial records and patient-facing simplification of clinical trial descriptions. Presented as a poster at the TextXD conference at UC Berkeley in December 2019.
-+ Developed a novel machine learning model for automatic expansion of the consumer health vocabulary, a relational dataset of medical terms and their colloquial uses, by analyzing user-generated text on online medical forums. Published at the IEEE International Conference on Healthcare Informatics.
-+ Developed tools and algorithms for bot detection on Facebook. Results and dataset development for this project were published at the International Conference on Web and Social Media in 2018 and 2019. -->
 <h1 id="publications">Publications</h1>
 <ul>
-<li>Wang, L., <strong>Mujib, M. I.</strong>, Williams, J., Demiris, G., &amp; Huh-Yoo, J. (2021). An Evaluation of Generative Pre-Training Model-based Therapy Chatbot for Caregivers. <em>arXiv preprint</em>, arXiv:2107.13115.<br />
+<li><strong>Mujib, M. I.</strong>, Zelenkauskaite, A., &amp; Williams,
+J. R. (2023). Which tweets ‘deserve’ to be included in news stories?
+Chronemics of tweet embedding. In <em>Proceedings of the 56th Annual
+Hawaii International Conference on System Sciences (HICSS56)</em>.</li>
+<li>Smtriti, D., Kao, T. S., Rathod, R., Shin, J. Y., Peng, W.,
+Williams, J. R., <strong>Mujib, M. I.</strong>, Colosimo, M., &amp;
+Huh-Yoo, J. (2022) MICA: Motivational Interviewing Conversational Agent
+for Parents as Proxies for Their Children in Healthy Eating. <em>JMIR
+Human Factors, 06/08/2022:38908</em>.</li>
+<li><strong>Mujib, M. I.</strong> (2022). Modeling Emerging News Stories
+Across Digital Publications and Social Media. <em>Drexel University,
+Philadephia. Doctoral dissertation</em>.</li>
+<li>Wang, L., <strong>Mujib, M. I.</strong>, Williams, J., Demiris, G.,
+&amp; Huh-Yoo, J. (2021). An Evaluation of Generative Pre-Training
+Model-based Therapy Chatbot for Caregivers. <em>arXiv preprint</em>,
+arXiv:2107.13115.<br />
 </li>
-<li><strong>Mujib, M. I.</strong>, Heidenreich, H. S., Murphy, C. J., Santia, G. C., Zelenkauskaite, A., &amp; Williams, J. R. (2020, August). NewsTweet: A Dataset of Social Media Embedding in Online Journalism. <em>arXiv preprint</em>, arXiv:2008.02870.<br />
+<li><strong>Mujib, M. I.</strong>, Heidenreich, H. S., Murphy, C. J.,
+Santia, G. C., Zelenkauskaite, A., &amp; Williams, J. R. (2020, August).
+NewsTweet: A Dataset of Social Media Embedding in Online Journalism.
+<em>arXiv preprint</em>, arXiv:2008.02870.<br />
 </li>
-<li>Heidenreich, H. S., <strong>Mujib, M. I.</strong>, &amp; Williams, J. R. (2020, July) Investigating Coordinated ‘Social’ Targeting of High-Profile Twitter Accounts. <em>arXiv preprint</em>, arXiv:2008.02874. <em>Presented at the 6th International Conference on Computational Social Science (IC2S2).</em><br />
+<li>Heidenreich, H. S., <strong>Mujib, M. I.</strong>, &amp; Williams,
+J. R. (2020, July) Investigating Coordinated ‘Social’ Targeting of
+High-Profile Twitter Accounts. <em>arXiv preprint</em>,
+arXiv:2008.02874. <em>Presented at the 6th International Conference on
+Computational Social Science (IC2S2).</em><br />
 </li>
-<li>Smriti, D., Shin, J. Y., <strong>Mujib, M. I.</strong>, Colosimo, M., Kao, T. S., Williams, J., &amp; Huh-Yoo, J. (2020, May). TAMICA: Tailorable Autonomous Motivational Interviewing Conversational Agent. In Proceedings of the 14th EAI International Conference on Pervasive Computing Technologies for Healthcare (pp. 411-414).<br />
+<li>Smriti, D., Shin, J. Y., <strong>Mujib, M. I.</strong>, Colosimo,
+M., Kao, T. S., Williams, J., &amp; Huh-Yoo, J. (2020, May). TAMICA:
+Tailorable Autonomous Motivational Interviewing Conversational Agent. In
+Proceedings of the 14th EAI International Conference on Pervasive
+Computing Technologies for Healthcare (pp. 411-414).<br />
 </li>
-<li>Santia, G. C., <strong>Mujib, M. I.</strong>, &amp; Willams, J. R. (2019, June). Detecting Social Bots on Facebook in an Information Veracity Context. In <em>Proceedings of the International AAAI Conference on Web and Social Media (ICWSM)</em> Vol. 13 (pp. 463-472). AAAI.<br />
+<li>Santia, G. C., <strong>Mujib, M. I.</strong>, &amp; Willams, J. R.
+(2019, June). Detecting Social Bots on Facebook in an Information
+Veracity Context. In <em>Proceedings of the International AAAI
+Conference on Web and Social Media (ICWSM)</em> Vol. 13 (pp. 463-472).
+AAAI.<br />
 </li>
-<li><strong>Mujib, M. I.</strong>, Yang, C. C., Zhao, M., &amp; Williams, J. R. (2018, June). Expanding Consumer Health Vocabularies with Frequency-Conserving Internal Context Models. In <em>2018 IEEE International Conference on Healthcare Informatics (ICHI)</em> (pp. 241-246). IEEE.</li>
+<li><strong>Mujib, M. I.</strong>, Yang, C. C., Zhao, M., &amp;
+Williams, J. R. (2018, June). Expanding Consumer Health Vocabularies
+with Frequency-Conserving Internal Context Models. In <em>2018 IEEE
+International Conference on Healthcare Informatics (ICHI)</em>
+(pp. 241-246). IEEE.</li>
 </ul>
-<h1 id="tools">Tools</h1>
-<ul>
-<li><strong>Analysis and development:</strong> Python (Pandas, PySpark, NetworkX, Scikit-learn, Tensorflow, PyTorch), Unix Shell (bash/zsh), MongoDB, SQL, Postgres, R.</li>
-<li><strong>Visualization and communication:</strong> Plotly, Matplotlib/Seaborn, Vega.js, d3.js, Markdown, LaTeX.</li>
-<li><strong>Others:</strong> JavaScript, MATLAB, C, C++, C#.</li>
-</ul>
-<!-- # Languages
-
-## Human
-
-Bangla, English, some French.
-
-## Machine
-
-Python, bash/shell, C, C++, R, JavaScript, MATLAB, Embedded C, Arduino, x86 Assembly, Java, C#; markup languages: LaTeX, Markdown, HTML, CSS.
-
-# Computing
-
-## Workflow
-
-As a data scientist, most of my projects require significant data preprocessing and developing data handling tools. The next phase of a project is exploratory data analysis or EDA, followed by model construction and experimental design. Finally, the project usually requires the development of an evaluation scheme and/or metrics.
-
-Both in industry and academia, I have developed and continue to develop extensive documentation for code in order to make projects and tools accessible to others.
-
-## Tools
-
-I primarily use Python. For EDA, I use Jupyter Notebooks. I use LaTeX and Markdown for documentation. I prefer working in Unix-like environments such as macOS and GNU/Linux, but I have also been a Windows user.
-
-I use `scikit-learn` for out-of-the-box machine learning tools and `matplotlib` and `seaborn` for results visualization. For more interactive visualizations, I use `d3.js` and `Vega`. -->
 </body>
 </html>
