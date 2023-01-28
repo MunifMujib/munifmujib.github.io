@@ -15,6 +15,7 @@ Munif is a software engineer and data scientist with 6 years of experience in bu
 
 + Email: [munifishadmujib@gmail.com](mailto:munifishadmujib@gmail.com)
 + LinkedIn: [linkedin.com/in/munifmujib](https://www.linkedin.com/in/munifmujib)
++ Google Scholar: [Profile](https://scholar.google.com/citations?user=jU5JYkQAAAAJ&hl=en)
 
 ## Skills
 
